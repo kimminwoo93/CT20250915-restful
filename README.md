@@ -47,7 +47,7 @@
      docker-compose up
      ```
 
-## Reference
+### Reference
 
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
 - [API Guidelines](https://dret.github.io/guidelines/)
