@@ -46,3 +46,9 @@
      ```bash
      docker-compose up
      ```
+
+## Reference
+
+- [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [API Guidelines](https://dret.github.io/guidelines/)
+- 조시 포널랫/루카스 로젠스톡, OpenAPI와 스웨거를 활용한 실전 API 설계, 책만, 2024
