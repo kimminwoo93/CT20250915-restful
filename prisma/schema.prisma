@@ -1,0 +1,30 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+model Food {
+  id                    Int @db.UnsignedSmallInt @id @default(autoincrement())
+  food_code             String @db.VarChar(10) @unique
+  group_name            String @db.VarChar(20)
+  food_name             String @db.VarChar(40)
+  research_year         String @db.VarChar(4)
+  maker_name            String @db.VarChar(20)
+  ref_name              String @db.VarChar(30)
+  serving_size          Int @db.UnsignedSmallInt
+  calorie               Float? @db.Double
+  carbohydrate          Float? @db.Double
+  protein               Float? @db.Double
+  province              Float? @db.Double
+  sugars                Float? @db.Double
+  salt                  Float? @db.Double
+  cholesterol           Float? @db.Double
+  saturated_fatty_acids Float? @db.Double
+  trans_fat             Float? @db.Double
+  updatedAt             DateTime @updatedAt
+  createdAt             DateTime @default(now())
+}

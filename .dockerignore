@@ -1,0 +1,29 @@
+# env
+.env
+.env.production
+.env.development
+.env.local
+
+# git
+.git
+.gitignore
+
+# document
+README.md
+
+# sql
+mysql-init
+
+# docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# IDE
+.vscode
+.idea
+
+# etc
+node_modules
+dist
+.DS_Store
