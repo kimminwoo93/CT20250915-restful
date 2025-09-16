@@ -24,7 +24,7 @@
 
 1. Swagger 웹 페이지 접속
 
-   브라우저를 통해 "http://localhost/docs"로 접속 시 모든 API 명세가 포함된 Swagger 웹 페이지를 확인할 수 있습니다.
+   브라우저를 통해 "http://localhost/docs" 접속 시 모든 API 명세가 포함된 Swagger 웹 페이지를 확인할 수 있습니다.
 
 2. API 실행
 
